@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-12-19T11:37:10
+# Project created by QtCreator 2017-12-19T12:08:35
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Invest-O-Matt-ic
+TARGET = Invest-O-Matt-Ic
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -24,8 +24,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        griddisplay.cpp
+        mainwindow.cpp
 
-HEADERS  += griddisplay.h
+HEADERS  += mainwindow.h
 
-FORMS    += griddisplay.ui
+FORMS    += mainwindow.ui
