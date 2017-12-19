@@ -24,8 +24,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    mattcalculations.cpp \
+    mortgagecalc.cpp \
+    propertysqrftstats.cpp \
+    csvimport.cpp \
+    propertyinfo.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    mattcalculations.h \
+    mortgagecalc.h \
+    propertysqrftstats.h \
+    csvimport.h \
+    propertyinfo.h
 
 FORMS    += mainwindow.ui

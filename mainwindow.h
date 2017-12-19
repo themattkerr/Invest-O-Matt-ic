@@ -3,6 +3,12 @@
 
 #include <QMainWindow>
 
+#include "propertyinfo.h"
+#include "csvimport.h"
+#include "mattcalculations.h"
+#include "mortgagecalc.h"
+#include "propertysqrftstats.h"
+
 namespace Ui {
 class MainWindow;
 }
